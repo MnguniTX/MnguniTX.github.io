@@ -21,6 +21,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 100%;
 }
 
 .us{
@@ -33,7 +34,8 @@ body, html {
   top: 8px;
   left: 16px;
   color: bisque;
-  font-size: 40px;
+
+  font-size:2.9vw;
 }
 
 
@@ -43,9 +45,15 @@ body, html {
 <body>
 
 <div class="bg">
+    <div class="us">
+    <picture>
+            <source srcset="Babe.jpg" media="(max-width: 50px)">
+            
 
-        <div class="us"> <img src="Babe.jpg" alt="Babe" height="500px" width="500px"></div>
-        <div class="top-left">HAPPY<br> 8TH<br> ANNIVESARY</div>
+            <img src="Babe.jpg" alt="Babe" style=width:300px>
+    </picture>
+</div>
+        <div class="top-left" >HAPPY<br> 8TH<br> ANNIVESARY</div>
 
 </div>
 
